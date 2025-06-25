@@ -31,7 +31,7 @@ Feature: login functionality
     
     Scenario: user login with 
  		Given lauch browser and url
-    When User entered incorrect login id
+    When User entered incorrect login credential
     When User entered incorrect password
     And User clicked on login button
     Then user unable to login page & throw error massage
